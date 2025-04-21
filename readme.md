@@ -27,7 +27,7 @@
 | **Copy File/Folder**      | Can copy files and folders very simply.                                      |
 | **Bulk Copy**       | Can copy files and folders in bulk very easily, thanks to PHP                             |
 | **Stealth**         | Can be hidden (e.g., rename to .sec.php), e.g. `foxypure.php` → `.sec.php`.            |
-| **Safety**         | If someone opens `https://example.com/foxyshell.php` then the display that is displayed is `403 Forbidden`, The text color will change to orange when selected. |
+| **Safety**         | If someone opens `https://example.com/foxyshell.php` then the display that is displayed is `502 Bad Gateway`, with Hidden Admin Login, `admin` is default password. |
 
 **Main Selling Points**
 
