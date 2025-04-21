@@ -31,7 +31,7 @@ if (isset($_POST['login'])) {
         header("Location: " . $_SERVER['REQUEST_URI']);
         exit();
     } else {
-        $loginError = "Password salah.";
+        $loginError = "Wrong Password.";
     }
 }
 
