@@ -26,7 +26,7 @@
 | **Inline Editor**   | Edit file contents directly in the browser, then save changes to the server.              |
 | **Copy File/Folder**      | Can copy files and folders very simply.                                      |
 | **Bulk Copy**       | Can copy files and folders in bulk very easily, thanks to PHP                             |
-| **Stealth**         | Can be hidden (e.g., rename to .sec.php), e.g. `foxyshell.php` → `.sec.php`.            |
+| **Stealth**         | Can be hidden (e.g., rename to .sec.php), e.g. `foxypure.php` → `.sec.php`.            |
 | **Safety**         | If someone opens `https://example.com/foxyshell.php` then the display that is displayed is `403 Forbidden`, The text color will change to orange when selected. |
 
 **Main Selling Points**
